@@ -20,7 +20,7 @@ function Home(props){
         <section className=' banner bg-dark-overlay'>
             <div className='container-fluid'></div>
         <div className='row'>
-            <div className='col-lg-12 col-md-12 col-xs-12 text-center'>
+            <div className='col-lg-12 text-center'>
                 <img className='brand-img' src={brand} alt='banner'/>
             </div>
         </div>
