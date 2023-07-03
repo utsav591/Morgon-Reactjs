@@ -1,38 +1,253 @@
-.App {
+body{
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.90;
+  background-color: #fff;
+  padding-top: 100px;
+}
+h1{
+  font-size: 74px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2{
+ font-size: 45px;
+ font-weight: bold;
+}
+
+h5{
+ font-size: 25px;
+ color: #f0a951;
+}
+
+p{
+ font-size: 17px;
+ color: #6c757d
+}
+
+a{
+ text-decoration: none;
+}
+
+.nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.banner{
+  background-image: url(./Assets/bg.20eb2b08.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.brand-img{
+  padding: 300px 0px;
+}
+
+.bg-dark-overlay{
+  position: relative;
+    z-index: 0;
+}
+
+.bg-dark-overlay:before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(47, 44, 47, 0.4);
+}
+
+.button{
+  
+  padding: 10px;
+  border-radius: 30px;
+  border-color: #f0a951;
+}
+.painter-img{
+  width:auto;
+  box-shadow: #888c8f;
+  border-width: 50px;
+  
+}
+.services-p{
+  padding: 0 200px;
+}
+
+.blurd-boxed {
+  padding-top: 80px ;
+  height: 270px;
+  overflow: hidden;
+  border: 3px solid #f0a951;
+}
+
+.blurd-boxed .icon {
+  color: #f0a951;
+  font-size: 54px;
+}
+.button {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 16px 40px;
+  font-size: 18px;
+  line-height: 29px;
+  border-radius: 40px;
+  border: none;
+  white-space: nowrap;
+  overflow: hidden;
   text-align: center;
+  cursor: pointer;
+}
+.web-btn{
+  color: #f0a951;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 3px #f0a951;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .web-btn:hover {
+  background: #323131;
+  color: #fff;
+} 
+.about-page{
+  background-image: url("/src/Assets/bg-image.1a099ffb.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-p{
+  padding: 100px;
+}
+.service-img{
+  height: 400px;
+  width: 580px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (min-width: 400px){
+  body{
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.90;
+    background-color: #fff;
+    padding-top: 65px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h1{
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
   }
-  to {
-    transform: rotate(360deg);
+  
+  h2{
+   font-size: 26px;
+   font-weight: bold;
+   padding: 20px;
+  }
+  
+  h5{
+   font-size: 20px;
+   color: #f0a951;
+  
+  }
+  
+  p{
+   font-size: 16px;
+   color: #6c757d
+  }
+  
+  a{
+   text-decoration: none;
+  }
+  
+  .nav-link {
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+ 
+  .brand-img{
+    padding: 150px 0px;
+    width: 330px;
+  }
+  
+  .bg-dark-overlay{
+    position: relative;
+      z-index: 0;
+  }
+  
+  .bg-dark-overlay:before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(47, 44, 47, 0.4);
+  }
+  
+  .button{
+    padding: 10px;
+    border-radius: 30px;
+    border-color: #f0a951;
+  }
+  .painter-img{
+    width:auto;
+    box-shadow: #888c8f;
+    border-width: 29px;
+    
+  }
+  .services-p{
+    padding: 0px 20px;
+   
+  }
+  
+  .blurd-boxed {
+    padding-top: 80px ;
+    height: 190px;
+    overflow: hidden;
+    border: 3px solid #f0a951;
+  }
+  
+  .blurd-boxed .icon {
+    color: #f0a951;
+    font-size: 54px;
+  }
+  .button {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 16px 40px;
+    font-size: 18px;
+    line-height: 29px;
+    border-radius: 40px;
+    border: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .about-p{
+    padding: 100px;
+  }
+  .service-img{
+    height: 300px;
+    width: 357px;
+    padding-top: 15px;
+  }
+  .home-p{
+    width: 303px;
+    height: 230px;
+  }
+  .footer-brand{
+    padding: 25px;
+  }
+  .about-img{
+    width:342px;
+    height: 280px;
+  }
+  .about-card{
+    padding: 30px!important;
   }
 }
