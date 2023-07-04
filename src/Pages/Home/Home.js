@@ -17,9 +17,9 @@ function Home(props){
         <link rel="canonical" href="http://mysite.com/example" />
         <meta name="description" content="Home page application" />
        </Helmet>
-        <section className=' banner bg-dark-overlay'>
+        <section className='banner bg-dark-overlay'>
             <div className='container-fluid'></div>
-        <div className='row'>
+            <div className='row'>
             <div className='col-lg-12 text-center'>
                 <img className='brand-img' src={brand} alt='banner'/>
             </div>

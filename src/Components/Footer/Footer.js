@@ -5,7 +5,7 @@ import logo from '../../Assets/logo.png';
 
 function Footer(){
 return(
-<section className="container text-dark p-5 footer-brand" >
+<section className="container text-dark p-5 footer-brand bg-light" >
 <div className="row">
   <div className="col-lg-4 pb-3">
     <Link className="navbar-brand" to="/"><img src={logo} alt='logo'></img></Link>

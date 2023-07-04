@@ -140,11 +140,15 @@ a{
   }
   
   h2{
-   font-size: 26px;
+   font-size: 33px;
    font-weight: bold;
-   padding: 20px;
   }
-  
+  .p-5{
+    padding: 1rem!important;
+  }
+  .py-4{
+    padding: 0rem!important;
+  }
   h5{
    font-size: 20px;
    color: #f0a951;
@@ -192,7 +196,7 @@ a{
     border-color: #f0a951;
   }
   .painter-img{
-    width:auto;
+    width: 386px;
     box-shadow: #888c8f;
     border-width: 29px;
     
