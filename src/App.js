@@ -22,12 +22,6 @@ function App() {
       </switch>
       <Footer/>
     </Router>
-    
-    
-    
-      
-   
-   
   );
 }
 

@@ -1,6 +1,7 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+
 import logo from '../../Assets/logo.png';
+import { NavLink } from 'react-bootstrap';
 
 
 function Footer(){
@@ -8,7 +9,7 @@ return(
 <section className="container text-dark p-5 footer-brand bg-light" >
 <div className="row">
   <div className="col-lg-4 pb-3">
-    <Link className="navbar-brand" to="/"><img src={logo} alt='logo'></img></Link>
+    <NavLink className="navbar-brand" to="/"><img src={logo} alt='logo'></img></NavLink>
     <p>Morgan was born in London. He was commonly known as Fred Morgan and was the son of John Morgan, a successful genre artist sometimes known as 'Jury Morgan' (after one of his paintings The Gentlemen of the Jury)."</p>
   </div>
   <div className="col-lg-2">

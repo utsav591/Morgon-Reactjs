@@ -3,7 +3,7 @@ body{
   font-size: 16px;
   line-height: 1.90;
   background-color: #fff;
-  padding-top: 100px;
+ 
 }
 h1{
   font-size: 74px;
@@ -124,14 +124,16 @@ a{
   height: 400px;
   width: 580px;
 }
-
-@media screen and (min-width: 400px){
+.footer-ul{
+  font-size: 20px;
+}
+@media (max-width: 481px){
   body{
     font-family: 'Martel Sans', sans-serif;
-    font-size: 16px;
+    font-size: 10px;
     line-height: 1.90;
     background-color: #fff;
-    padding-top: 65px;
+   
   }
   h1{
     font-size: 34px;
@@ -165,7 +167,7 @@ a{
   }
   
   .nav-link {
-    font-size: 10px;
+    font-size: 16px;
     text-transform: uppercase;
   }
  
@@ -196,7 +198,7 @@ a{
     border-color: #f0a951;
   }
   .painter-img{
-    width: 386px;
+    width: 370px;
     box-shadow: #888c8f;
     border-width: 29px;
     
@@ -253,5 +255,12 @@ a{
   }
   .about-card{
     padding: 30px!important;
+  }
+  .paint-padding{
+  margin: 0px 10px;
+  }
+  .img-fluid{
+    width: 350px;
+    padding: 20px;
   }
 }

@@ -1,39 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logo from '../../Assets/logo.png';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 
 function Header(){
     return(
           <>
-      <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <Link className="navbar-brand" to="/"><img src={logo} alt="logo"/></Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto w-100 justify-content-end clearfix">
-            <li className="nav-item">
-              <Link className="nav-link p-4" activeClassName="selected" to="/">Home</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link p-4" to="/About">About Us</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link p-4" to="/services">Services</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link p-4" to="/contact">Contact us</Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      </header>
+      <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="/"><img src={logo} alt="logo"/></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="/" activeClassName="selected" >Home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/services">Services</Nav.Link>
+            <Nav.Link href="/contact">Contact Us</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar> 
       </>
-    
     )
 }
 

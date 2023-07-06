@@ -13,9 +13,9 @@ function Painter(props){
         <h2 className='text-center w-3'>My Painting</h2>
             <div className='container'>
                 
-                <div className='row justify-content-between align-items-end mb-4'>
+                <div className='row justify-content-between align-items-end'>
                     <div className='col-lg-4'>
-                    <div className="card shadow mb-5 bg-white rounded" >
+                    <div className="card shadow mb-5 bg-white rounded  paint-padding" >
                     <img src={Project1} className="painter-img" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">Sea Storm</h5>
@@ -24,7 +24,7 @@ function Painter(props){
                     </div>
                   </div>
                     <div className='col-lg-4'>
-                    <div className="card shadow mb-5 bg-white rounded" >
+                    <div className="card shadow mb-5 bg-white rounded  paint-padding" >
                     <img src={Project4} className="painter-img" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">Ruins of Ancient Fortress</h5>
@@ -33,7 +33,7 @@ function Painter(props){
                     </div>
                     </div>
                     <div className='col-lg-4'>
-                    <div className="card shadow mb-5 bg-white rounded" >
+                    <div className="card shadow mb-5 bg-white rounded paint-padding" >
                     <img src={Project3} className="painter-img" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">Two Lovers</h5>
@@ -42,7 +42,7 @@ function Painter(props){
                     </div>
                     </div>
                     <div className='col-lg-4'>
-                    <div className="card shadow mb-5 bg-white rounded" >
+                    <div className="card shadow mb-5 bg-white rounded paint-padding" >
                     <img src={Project5} className="painter-img" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">Birches in Autumn</h5>
@@ -51,7 +51,7 @@ function Painter(props){
                     </div>
                     </div>
                     <div className='col-lg-4'>
-                    <div className="card shadow mb-5 bg-white rounded" >
+                    <div className="card shadow mb-5 bg-white rounded paint-padding" >
                     <img src={Project2} className="painter-img" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">Watercolor Portrait</h5>
@@ -60,7 +60,7 @@ function Painter(props){
                     </div>
                     </div>
                     <div className='col-lg-4'>
-                    <div className="card shadow mb-5 bg-white rounded" >
+                    <div className="card shadow mb-5 bg-white rounded paint-padding" >
                     <img src={Project6} className="painter-img" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">Green Landscape</h5>

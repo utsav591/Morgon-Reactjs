@@ -45,10 +45,10 @@ function Services(props){
         <section>
         <div className="container-fluid">
         <div className="row">
-        <div className="col-lg-4 col-md-6">
+        <div className="col-lg-4 paint-padding">
           <img src={portrait2} className="img-fluid" alt="project"/>
           </div>
-          <div className="col-lg-8 col-md-6">
+          <div className="col-lg-8 paint-padding">
           <img src={portrait3} className="img-fluid" alt="project"/>
           <div className="text-end pt-5">
           <h5>Oil on Canvas of a Little Girl</h5>
