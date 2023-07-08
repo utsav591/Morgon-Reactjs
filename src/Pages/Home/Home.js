@@ -1,9 +1,10 @@
 import React from 'react'
-import { Link } from "react-router-dom"
+
 import brand from "../../Assets/brand-inverse.6c695ccb.png"
 import home from "../../Assets/home.eeaa916c.jpg"
 import {Helmet} from "react-helmet";
 import Painter from '../painter/painter';
+import { NavLink } from 'react-bootstrap';
 
 
 
@@ -75,7 +76,7 @@ function Home(props){
             </div>
             </div>
             <div className="p-5 justify-content-center services">
-            <Link to="/services" className="button web-btn">View All services</Link>
+            <NavLink to="/services" className="button web-btn">View All services</NavLink>
            </div>
         </secion>
         </>

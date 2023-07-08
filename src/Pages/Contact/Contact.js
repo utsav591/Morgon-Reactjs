@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {Helmet} from "react-helmet";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -57,7 +57,7 @@ function Contact(props){
                         </div>
                         {thankuMessage ? <span className='text-success text-center my-2'>Thank you for contating us!</span> : null}
                     </form>
-                    <Link to='/About'className="button web-btn">Send Messages</Link>
+                    <NavLink to='/About'className="button web-btn">Send Messages</NavLink>
                 </div>
                 <div className='col-lg-6'>
                     <h2>Our Address</h2>

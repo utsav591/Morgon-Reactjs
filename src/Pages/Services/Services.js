@@ -6,7 +6,8 @@ import portrait2 from '../../Assets/portrait-2.8d481ca3.jpg'
 import portrait3 from '../../Assets/portrait-3.bf8df984.jpg'
 import portrait4 from '../../Assets/portrait-4.92cdd2ec.jpg'
 import portrait5 from '../../Assets/portrait-5.ccbb35fd.jpg'
-import { Link } from "react-router-dom"
+
+import { NavLink } from 'react-bootstrap';
 
 
 function Services(props){
@@ -33,7 +34,7 @@ function Services(props){
                     <div className='col-lg-6'>
                     <h2>Service Description</h2>
                     <p>There are always situations that call for more than just a photograph. Have your portrait painted by a really experienced fine artist who can literally paint anything you can dream up! A portrait is a representation of a particular person. Such paintings have always been more than just a record. They have been used to show the power, importance, virtue, beauty, wealth, taste, learning or other important qualities that characterize the sitter. It is one of the best ways to depict a person and show his/her character.</p>
-                    <Link to='/Services'className="button web-btn">Learn More</Link>
+                    <NavLink to='/Services'className="button web-btn">Learn More</NavLink>
                     </div>
                     <div className='col-lg-6 p-5'>
                         <img src={Service} alt='services'className='service-img'/>
