@@ -146,7 +146,7 @@ a{
   }
   
   h2{
-   font-size: 33px;
+   font-size: 30px;
    font-weight: bold;
   }
   .p-5{
@@ -202,7 +202,7 @@ a{
     border-color: #f0a951;
   }
   .painter-img{
-    width: 370px;
+    width: 388px;
     box-shadow: #888c8f;
     border-width: 29px;
     
@@ -247,7 +247,7 @@ a{
     padding-top: 15px;
   }
   .home-p{
-    width: 303px;
+    width: 275px;
     height: 230px;
   }
   .footer-brand{
@@ -260,11 +260,12 @@ a{
   .about-card{
     padding: 30px!important;
   }
-  .paint-padding{
-  margin: 0px 10px;
-  }
+  
   .img-fluid{
     width: 350px;
     padding: 20px;
   }
+  
 }
+
+
