@@ -31,13 +31,13 @@ function Services(props){
         <section className='services m-4'>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-6 col-sm-5'>
                     <h2>Service Description</h2>
                     <p>There are always situations that call for more than just a photograph. Have your portrait painted by a really experienced fine artist who can literally paint anything you can dream up! A portrait is a representation of a particular person. Such paintings have always been more than just a record. They have been used to show the power, importance, virtue, beauty, wealth, taste, learning or other important qualities that characterize the sitter. It is one of the best ways to depict a person and show his/her character.</p>
                     <NavLink to='/Services'className="button web-btn">Learn More</NavLink>
                     </div>
-                    <div className='col-lg-6 p-5'>
-                        <img src={Service} alt='services'className='service-img'/>
+                    <div className='col-lg-6 col-sm-6'>
+                        <img src={Service} alt='services'className='service-img '/>
                     </div>
                 </div>
             </div>
